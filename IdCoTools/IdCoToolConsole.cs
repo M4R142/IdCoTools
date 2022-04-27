@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IdCoTools
 {
-    public partial class Form1 : Form
+    public partial class IdCoToolConsole : Form
     {
-        public Form1()
+        public IdCoToolConsole()
         {
             InitializeComponent();
         }
