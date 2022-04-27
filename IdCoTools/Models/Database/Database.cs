@@ -5,7 +5,7 @@ namespace IdCoTools.Models.Database
 {
     public class Database : IDatabase
     {
-        SQLiteAsyncConnection database;
+        readonly SQLiteAsyncConnection database;
         /// <summary>
         /// Inicializar la conexión de la base de datos.
         /// </summary>
