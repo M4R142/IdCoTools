@@ -100,6 +100,7 @@ namespace IdCoTools
             this.buttonStart.TabIndex = 3;
             this.buttonStart.Text = "Iniciar";
             this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.ButtonStart_Click);
             // 
             // buttonFinish
             // 
@@ -110,10 +111,11 @@ namespace IdCoTools
             this.buttonFinish.TabIndex = 4;
             this.buttonFinish.Text = "Finalizar";
             this.buttonFinish.UseVisualStyleBackColor = true;
+            this.buttonFinish.Click += new System.EventHandler(this.ButtonFinish_Click);
             // 
             // OpenFileDialog
             // 
-            this.OpenFileDialog.FileName = "OpenFileDialog";
+            this.OpenFileDialog.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png";
             this.OpenFileDialog.Multiselect = true;
             // 
             // IdCoToolConsole
