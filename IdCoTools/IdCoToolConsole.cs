@@ -16,7 +16,7 @@ namespace IdCoTools
 {
     public partial class IdCoToolConsole : Form
     {
-        static Database database;
+        Database database;
         public IdCoToolConsole()
         {
             InitializeComponent();
