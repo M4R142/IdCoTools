@@ -36,6 +36,7 @@ namespace IdCoTools
             this.buttonStart = new System.Windows.Forms.Button();
             this.buttonFinish = new System.Windows.Forms.Button();
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.tableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -138,5 +139,6 @@ namespace IdCoTools
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.Button buttonFinish;
         private System.Windows.Forms.OpenFileDialog OpenFileDialog;
+        private System.Windows.Forms.SaveFileDialog SaveFileDialog;
     }
 }
