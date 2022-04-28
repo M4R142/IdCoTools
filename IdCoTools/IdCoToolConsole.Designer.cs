@@ -35,6 +35,7 @@ namespace IdCoTools
             this.LabelStatus = new System.Windows.Forms.Label();
             this.buttonStart = new System.Windows.Forms.Button();
             this.buttonFinish = new System.Windows.Forms.Button();
+            this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.tableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,6 +110,10 @@ namespace IdCoTools
             this.buttonFinish.Text = "Finalizar";
             this.buttonFinish.UseVisualStyleBackColor = true;
             // 
+            // OpenFileDialog
+            // 
+            this.OpenFileDialog.FileName = "OpenFileDialog";
+            // 
             // IdCoToolConsole
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -131,5 +136,6 @@ namespace IdCoTools
         private System.Windows.Forms.Label LabelStatus;
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.Button buttonFinish;
+        private System.Windows.Forms.OpenFileDialog OpenFileDialog;
     }
 }
