@@ -113,6 +113,7 @@ namespace IdCoTools
             // OpenFileDialog
             // 
             this.OpenFileDialog.FileName = "OpenFileDialog";
+            this.OpenFileDialog.Multiselect = true;
             // 
             // IdCoToolConsole
             // 
