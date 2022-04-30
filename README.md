@@ -6,19 +6,20 @@
 ## Características
 
 ### Datos de entrada
-- Selección de archivos de imágenes que cumplan con la siguiente nomenclatura:
-   - nombre_apellido.jpg
-   - nombre-apellido.jpg
-   - nombre apellido.jpg
-   - nombre_apellido.png
-   - nombre-apellido.png
-   - nombre apellido.png
-- Sino se cumple con dicha nomenclatura los archivos se descartaran.
+Selección de archivos de imágenes que cumplan con la siguiente nomenclatura:
+  - nombre_apellido.jpg
+  - nombre-apellido.jpg
+  - nombre apellido.jpg
+  - nombre_apellido.png
+  - nombre-apellido.png
+  - nombre apellido.png
+
+Sino se cumple con dicha nomenclatura los archivos se descartaran.
  
 ### Datos de salida
-- Archivo de la dase de datos con extensión ".db3" descargado en el directorio de "Descargas" de Windows.
+ - Archivo de la dase de datos con extensión ".db3" descargado en el directorio de "Descargas" de Windows.
 
 ## Setup de la aplicación
-1. Acceder a la última version [v1.0.0](https://github.com/mpt1002/IdCoTools/releases/tag/v1.0.0) y descargar el archivo IdCoTools_Setup.zip.
-2. Ejecutar el archivo Setup.exe.
-3. Empezar a utilizar el programa.
+ 1. Acceder a la última version [v1.0.0](https://github.com/mpt1002/IdCoTools/releases/tag/v1.0.0) y descargar el archivo IdCoTools_Setup.zip.
+ 2. Ejecutar el archivo Setup.exe.
+ 3. Empezar a utilizar el programa.
